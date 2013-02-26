@@ -1,0 +1,33 @@
+{
+  "name": "template-cache",
+  "version": "0.0.1",
+  "main": "dist/template-cache.js",
+  "description": "Template Cache manages DOM subtrees.",
+  "homepage": "https://github.com/pyykkis/template-cache",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pyykkis/template-cache.git"
+  },
+  "keywords": [
+    "template"
+  ],
+  "author": "Jarno Keskikangas <jarno.keskikangas@leonidasoy.fi>",
+  "licenses": [
+    "MIT"
+  ],
+  "dependencies": {
+    "jsdom": "~0.5.0"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.5.0",
+    "grunt": "~0.4.0",
+    "grunt-contrib-coffee": "~0.4.0",
+    "grunt-jasmine-task": "~0.2.3",
+    "grunt-docco": "git://github.com/bdougherty/grunt-docco.git#grunt-0.4",
+    "grunt-contrib-watch": "~0.2.0",
+    "grunt-contrib-uglify": "~0.1.1"
+  },
+  "scripts": {
+    "test": "grunt test"
+  }
+}
